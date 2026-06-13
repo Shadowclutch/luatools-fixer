@@ -3528,5 +3528,3 @@ if ($Branch -eq 1 -or $Branch -eq 2) {
     # Waike contributed a lot
 
 } # end if Branch 1 or 2
-
-} # end :MainLoop
