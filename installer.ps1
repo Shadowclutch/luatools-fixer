@@ -820,11 +820,6 @@ if (-not $Branch) {
             default { continue }
         }
         if ($Branch -ne 0) { break }
-}
-} # This closes your outer block
-
-:MainLoop 
-while ($true) {
 
 
 #### Branch 6: Steam Bulk Fixer (by waike - waike.dev) ####
