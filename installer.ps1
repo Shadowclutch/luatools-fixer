@@ -820,9 +820,8 @@ if (-not $Branch) {
             default { continue }
         }
         if ($Branch -ne 0) { break }
-    }
-    Blank
 }
+} # This closes your outer block
 
 :MainLoop 
 while ($true) {
