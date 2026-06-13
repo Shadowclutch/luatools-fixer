@@ -1,11 +1,3 @@
-# ██████╗  █████╗ ███████╗██╗███████╗██╗  ██╗██╗   ██╗███╗   ██╗███████╗██╗███╗   ███╗██████╗
-# ██╔══██╗██╔══██╗██╔════╝██║██╔════╝██║ ██╔╝██║   ██║████╗  ██║██╔════╝██║████╗ ████║██╔══██╗
-# ██████╔╝███████║█████╗  ██║█████╗  █████╔╝ ██║   ██║██╔██╗ ██║███████╗██║██╔████╔██║██████╔╝
-# ██╔══██╗██╔══██║██╔══╝  ██║██╔══╝  ██╔═██╗ ██║   ██║██║╚██╗██║╚════██║██║██║╚██╔╝██║██╔═══╝
-# ██║  ██║██║  ██║██║     ██║███████╗██║  ██╗╚██████╔╝██║ ╚████║███████║██║██║ ╚═╝ ██║██║
-# ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝     ╚═╝╚═╝
-#
-# Tool Suite by Rafiekunsimp | github.com/Rafie-kun
 # Based on luatools by piqseu
 # Credits: waike, Skyflare, SelectivelyGood, Peron, clem.la, melly
 
@@ -17,9 +9,9 @@ param(
 )
 
 ## Configure this
-$Host.UI.RawUI.WindowTitle = "Rafiekunsimp Tool Suite | github.com/Rafie-kun"
+$Host.UI.RawUI.WindowTitle = "Shadowclutch Tool Suite | github.com/Shadowclutch"
 $name = "luatools"
-$link = "https://github.com/Rafie-kun/ltsteamplugin/releases/latest/download/ltsteamplugin.zip"
+$link = "https://github.com//ltsteamplugin/releases/latest/download/ltsteamplugin.zip"
 $milleniumTimer = 5 # in seconds for auto-installation
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -69,11 +61,11 @@ $SupportedLanguages = [ordered]@{
 $script:ScriptLanguage = "en"
 $Translations = @{ 
     en = @{ 
-        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
+        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
         "  INSTALL / UPDATE" = "  INSTALL / UPDATE"
         "  FIXES" = "  FIXES"
         "  OTHER" = "  OTHER"
-        "Install Rafiekunsimp plugin              " = "Install Rafiekunsimp plugin              "
+        "Install Shadowclutch plugin              " = "Install Shadowclutch plugin              "
         "Install steamtools-collection        " = "Install steamtools-collection        "
         "Spacetheme Block Remover             " = "Spacetheme Block Remover             "
         "Removes the 'get a job loser' block  " = "Removes the 'get a job loser' block  "
@@ -87,7 +79,7 @@ $Translations = @{
         "by Rafiekunsimp" = "by Rafiekunsimp"
         "Steam Manifest Downloader" = "Steam Manifest Downloader"
         "Downloads depot manifests when       " = "Downloads depot manifests when       "
-        "by Skyflare (Modified by Rafiekunsimp)" = "by Skyflare (Modified by Rafiekunsimp)"
+        "by Skyflare (Modified by Shadowclutch)" = "by Skyflare (Modified by Shadowclutch)"
         "SteamTools servers are unavailable   " = "SteamTools servers are unavailable   "
         "No Internet Connection Fix" = "No Internet Connection Fix"
         "Fixes Steam 'No Internet' errors via " = "Fixes Steam 'No Internet' errors via "
@@ -121,11 +113,11 @@ $Translations = @{
         "Will include language support on THIS script too, luv y'all brazilians" = "Will include language support on THIS script too, luv y'all brazilians"
     }
     ru = @{
-        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
+        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
         "  INSTALL / UPDATE" = "  УСТАНОВКА / ОБНОВЛЕНИЕ"
         "  FIXES" = "  ИСПРАВЛЕНИЯ"
         "  OTHER" = "  ДРУГОЕ"
-        "Install Rafiekunsimp plugin              " = "Установить плагин Rafiekunsimp           "
+        "Install Shadowclutch plugin              " = "Установить плагин Shadowclutch           "
         "Install steamtools-collection        " = "Установить steamtools-collection     "
         "Spacetheme Block Remover             " = "Удаление блока Spacetheme            "
         "Removes the 'get a job loser' block  " = "Удаляет блок 'get a job loser'       "
@@ -135,11 +127,11 @@ $Translations = @{
         "Steam Bulk Fixer" = "Массовый фиксер Steam"
         "Runs various Steam/Steamtools fixes  " = "Запускает различные исправления Steam/Steamtools"
         "ST Uninstaller" = "Деинсталлятор ST"
-        "Full Steamtools/Rafiekunsimp uninstaller " = "Полный деинсталлятор Steamtools/Rafiekunsimp "
-        "by Rafiekunsimp" = "от Rafiekunsimp"
+        "Full Steamtools/Shadowclutch uninstaller " = "Полный деинсталлятор Steamtools/Shadowclutch "
+        "by Shadowclutch" = "от Shadowclutch"
         "Steam Manifest Downloader" = "Загрузчик манифестов Steam"
         "Downloads depot manifests when       " = "Загружает манифесты депо, когда      "
-        "by Skyflare (Modified by Rafiekunsimp)" = "от Skyflare (изменено Rafiekunsimp)"
+        "by Skyflare (Modified by Shadowclutch)" = "от Skyflare (изменено Shadowclutch)"
         "SteamTools servers are unavailable   " = "серверы SteamTools недоступны        "
         "No Internet Connection Fix" = "Исправление отсутствия интернета"
         "Fixes Steam 'No Internet' errors via " = "Исправляет ошибки 'No Internet' через "
@@ -147,7 +139,7 @@ $Translations = @{
         "CloudRedirectCLI /stfixer            " = "CloudRedirectCLI /stfixer            "
         "Download / Launch CloudRedirect (GUI)" = "Скачать / Запустить CloudRedirect (GUI)"
         "Downloads & launches CloudRedirect   " = "Скачивает и запускает CloudRedirect  "
-        "by Rafiekunsimp | App by SelectivelyGood" = "от Rafiekunsimp | Приложение SelectivelyGood"
+        "by Shadowclutch | App by SelectivelyGood" = "от Shadowclutch | Приложение SelectivelyGood"
         "GUI, or runs it if already installed " = "GUI, или запускает, если уже установлено "
         "Millennium & SteamTools Reinstaller" = "Переустановщик Millennium и SteamTools"
         "Reinstalls Millennium + SteamTools,  " = "Переустанавливает Millennium + SteamTools, "
@@ -173,11 +165,11 @@ $Translations = @{
         "Will include language support on THIS script too, luv y'all brazilians" = "В ЭТОМ скрипте тоже будет поддержка языков, люблю вас всех"
     }
     fr = @{
-        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
+        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
         "  INSTALL / UPDATE" = "  INSTALLATION / MISE À JOUR"
         "  FIXES" = "  CORRECTIFS"
         "  OTHER" = "  AUTRE"
-        "Install Rafiekunsimp plugin              " = "Installer le plugin Rafiekunsimp         "
+        "Install Shadowclutch plugin              " = "Installer le plugin Shadowclutch         "
         "Install steamtools-collection        " = "Installer steamtools-collection      "
         "Spacetheme Block Remover             " = "Suppresseur de bloc Spacetheme       "
         "Removes the 'get a job loser' block  " = "Supprime le bloc 'get a job loser'   "
@@ -187,11 +179,11 @@ $Translations = @{
         "Steam Bulk Fixer" = "Correctif global Steam"
         "Runs various Steam/Steamtools fixes  " = "Exécute divers correctifs Steam/Steamtools"
         "ST Uninstaller" = "Désinstalleur ST"
-        "Full Steamtools/Rafiekunsimp uninstaller " = "Désinstalleur complet Steamtools/Rafiekunsimp "
-        "by Rafiekunsimp" = "par Rafiekunsimp"
+        "Full Steamtools/Shadowclutch uninstaller " = "Désinstalleur complet Steamtools/Shadowclutch "
+        "by Shadowclutch" = "par Shadowclutch"
         "Steam Manifest Downloader" = "Téléchargeur de manifestes Steam"
         "Downloads depot manifests when       " = "Télécharge les manifestes de dépôt quand "
-        "by Skyflare (Modified by Rafiekunsimp)" = "par Skyflare (modifié par Rafiekunsimp)"
+        "by Skyflare (Modified by Shadowclutch)" = "par Skyflare (modifié par Shadowclutch)"
         "SteamTools servers are unavailable   " = "les serveurs SteamTools sont indisponibles "
         "No Internet Connection Fix" = "Correctif de connexion Internet"
         "Fixes Steam 'No Internet' errors via " = "Corrige les erreurs 'No Internet' de Steam via "
@@ -199,7 +191,7 @@ $Translations = @{
         "CloudRedirectCLI /stfixer            " = "CloudRedirectCLI /stfixer            "
         "Download / Launch CloudRedirect (GUI)" = "Télécharger / Lancer CloudRedirect (GUI)"
         "Downloads & launches CloudRedirect   " = "Télécharge et lance CloudRedirect    "
-        "by Rafiekunsimp | App by SelectivelyGood" = "par Rafiekunsimp | App par SelectivelyGood"
+        "by Shadowclutch | App by SelectivelyGood" = "par Shadowclutch | App par SelectivelyGood"
         "GUI, or runs it if already installed " = "GUI, ou l'exécute si déjà installé   "
         "Millennium & SteamTools Reinstaller" = "Réinstalleur Millennium et SteamTools"
         "Reinstalls Millennium + SteamTools,  " = "Réinstalle Millennium + SteamTools,  "
@@ -225,11 +217,11 @@ $Translations = @{
         "Will include language support on THIS script too, luv y'all brazilians" = "Le support des langues sera aussi inclus dans CE script, je vous adore tous"
     }
     es = @{ 
-        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
+        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
         "  INSTALL / UPDATE" = "  INSTALAR / ACTUALIZAR"
         "  FIXES" = "  ARREGLA"
         "  OTHER" = "  OTROS"
-        "Install Rafiekunsimp plugin" = "Instalar plugin de Rafiekunsimp"
+        "Install Shadowclutch plugin" = "Instalar plugin de Shadowclutch"
         "Install steamtools-collection" = "Instalar steamtools-collection"
         "Spacetheme Block Remover" = "Eliminador de bloqueo Spacetheme"
         "Steam Offline Fix" = "Arreglo de Steam sin conexión/carga infinita"
@@ -243,10 +235,10 @@ $Translations = @{
         "Removes the 'get a job loser' block by waike" = "Elimina el bloqueo 'get a job loser' por waike"
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam atascado en el icono de carga por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Ejecuta varios arreglos de Steam/Steamtools por waike"
-        "Full Steamtools/Rafiekunsimp uninstaller by Rafiekunsimp" = "Desinstalador completo de Steamtools/Rafiekunsimp por Rafiekunsimp"
-        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Rafiekunsimp)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Skyflare (Modificado por Rafiekunsimp)"
+        "Full Steamtools/Shadowclutch uninstaller by Shadowclutch" = "Desinstalador completo de Steamtools/Shadowclutch por Shadowclutch"
+        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Shadowclutch)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Skyflare (Modificado por Shadowclutch)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige errores de Steam 'Sin Internet' mediante Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
-        "Downloads & launches CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, or runs it if already installed" = "Descarga e inicia CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, o lo ejecuta si ya está instalado"
+        "Downloads & launches CloudRedirect by Shadowclutch | App by SelectivelyGood GUI, or runs it if already installed" = "Descarga e inicia CloudRedirect by Shadowclutch | App by SelectivelyGood GUI, o lo ejecuta si ya está instalado"
         "Reinstalls Millennium + SteamTools, by clem.la & melly fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige errores de hardlink al reinstalar"
         "Quit" = "Salir"
         "Select an option" = "Selecciona una opción"
@@ -304,11 +296,11 @@ $Translations = @{
         "Cleaning up temp file..." = "Limpiando archivo temporal..."
     }
     pt = @{ 
-        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
+        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
         "  INSTALL / UPDATE" = "  INSTALAR / ATUALIZAR"
         "  FIXES" = "  CORREÇÕES"
         "  OTHER" = "  OUTROS"
-        "Install Rafiekunsimp plugin" = "Instalar plugin Rafiekunsimp"
+        "Install Shadowclutch plugin" = "Instalar plugin Shadowclutch"
         "Install steamtools-collection" = "Instalar steamtools-collection"
         "Spacetheme Block Remover" = "Removedor de bloqueio Spacetheme"
         "Steam Offline Fix" = "Correção de Steam offline/carregamento infinito"
@@ -322,10 +314,10 @@ $Translations = @{
         "Removes the 'get a job loser' block by waike" = "Remove o bloqueio 'get a job loser' por waike"
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam preso no ícone de carregamento por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Executa várias correções de Steam/Steamtools por waike"
-        "Full Steamtools/Rafiekunsimp uninstaller by Rafiekunsimp" = "Desinstalador completo de Steamtools/Rafiekunsimp por Rafiekunsimp"
-        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Rafiekunsimp)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Skyflare (Modificado por Rafiekunsimp)"
+        "Full Steamtools/Shadowclutch uninstaller by Rafiekunsimp" = "Desinstalador completo de Steamtools/Shadowclutch por Shadowclutch"
+        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Shadowclutch)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Skyflare (Modificado por Shadowclutch)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige erros de Steam 'Sem Internet' via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
-        "Downloads & launches CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, or runs it if already installed" = "Baixa e inicia CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, ou o executa se já estiver instalado"
+        "Downloads & launches CloudRedirect by Shadowclutch | App by SelectivelyGood GUI, or runs it if already installed" = "Baixa e inicia CloudRedirect by Shadowclutch | App by SelectivelyGood GUI, ou o executa se já estiver instalado"
         "Reinstalls Millennium + SteamTools, by clem.la & melly fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige erros de hardlink na reinstalação"
         "Quit" = "Sair"
         "Select an option" = "Selecione uma opção"
@@ -675,10 +667,10 @@ function Write-MainMenu {
     Write-Host ""
     Write-Host "      " -NoNewline
     Write-Host "████████████████████" -ForegroundColor DarkGreen -NoNewline
-    Write-Host "    RAFIEKUNSIMP TOOL SUITE" -ForegroundColor Green
+    Write-Host "    SHADOWCLUTCH TOOL SUITE" -ForegroundColor Green
     Write-Host "      " -NoNewline
     Write-Host "████████████████████" -ForegroundColor DarkGreen -NoNewline
-    Write-Host "    github.com/Rafie-kun" -ForegroundColor DarkGray
+    Write-Host "    github.com/Shadowclutch" -ForegroundColor DarkGray
     Write-Host "      " -NoNewline
     Write-Host "████" -ForegroundColor DarkGreen -NoNewline
     Write-Host "████" -ForegroundColor Black -NoNewline
@@ -717,7 +709,7 @@ function Write-MainMenu {
 
     Write-Host "  " -NoNewline
     Write-Host " 1 " -NoNewline -ForegroundColor Black -BackgroundColor DarkGreen
-    Write-Host "  Install Rafiekunsimp Plugin  " -NoNewline -ForegroundColor White
+    Write-Host "  Install Shadowclutch Plugin  " -NoNewline -ForegroundColor White
     Write-Host (Get-PluginStatus "luatools") -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
@@ -762,12 +754,12 @@ function Write-MainMenu {
     Write-Host "  " -NoNewline
     Write-Host " 5 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
     Write-Host "  ST Uninstaller               " -NoNewline -ForegroundColor White
-    Write-Host "by Rafiekunsimp" -ForegroundColor DarkGray
+    Write-Host "by Shadowclutch" -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
     Write-Host " 7 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
     Write-Host "  Steam Manifest Downloader    " -NoNewline -ForegroundColor White
-    Write-Host "by Skyflare (modded by Rafiekunsimp)" -ForegroundColor DarkGray
+    Write-Host "by Skyflare (modded by Shadowclutch)" -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
     Write-Host " 8 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
@@ -951,9 +943,9 @@ if ($Branch -eq 4) {
 }
 
 
-#### Branch 5: ST Uninstaller (by Rafiekunsimp) ####
+#### Branch 5: ST Uninstaller (by Shadowclutch) ####
 if ($Branch -eq 5) {
-    $Host.UI.RawUI.WindowTitle = "Rafiekunsimp Uninstaller | github.com/Rafie-kun"
+    $Host.UI.RawUI.WindowTitle = "Shadowclutch Uninstaller | github.com/Shadowclutch"
 
     function Get-SteamPath {
         $entries = @(
@@ -1168,7 +1160,7 @@ if ($Branch -eq 5) {
         Write-Host "  [" -NoNewline -ForegroundColor DarkGreen
         Write-Host " ST UNINSTALLER " -NoNewline -ForegroundColor Red
         Write-Host "]  " -NoNewline -ForegroundColor DarkGreen
-        Write-Host "by Rafiekunsimp  |  github.com/Rafie-kun" -ForegroundColor DarkGray
+        Write-Host "by Shadowclutch  |  github.com/Shadowclutch" -ForegroundColor DarkGray
         Write-Host ""
         Write-Host ("  " + ([char]0x2593).ToString() * 61) -ForegroundColor Green
         Blank
@@ -1350,7 +1342,7 @@ if ($Branch -eq 6) {
 }
 
 
-#### Branch 7: Steam Manifest Downloader (by Skyflare - Modified by Rafiekunsimp) ####
+#### Branch 7: Steam Manifest Downloader (by Skyflare - Modified by Shadowclutch) ####
 if ($Branch -eq 7) {
     Log "INFO" "Steam Manifest Downloader"
     Log "AUX"  "Downloads depot manifests when SteamTools servers are unavailable."
@@ -1373,7 +1365,7 @@ if ($Branch -eq 7) {
             $sourceLink = "$esc]8;;https://github.com/qwe213312/k25FCdfEOoEJ42S6$esc\GitHub Mirror$esc]8;;$esc\"
             $sourcePad  = "    "
         }
-        $discordLink = "$esc]8;;https://github.com/Rafie-kun$esc\github.com/Rafie-kun$esc]8;;$esc\"
+        $discordLink = "$esc]8;;https://github.com/Shadowclutch$esc\github.com/Shadowclutch$esc]8;;$esc\"
         Write-Host "  +================================================================+" -ForegroundColor Cyan
         Write-Host "  |        STEAM MANIFEST DOWNLOADER (For Steamtools)              |" -ForegroundColor Cyan
         Write-Host "  |   Downloads Out-Of-Date Manifest Files From $sourceLink$sourcePad|" -ForegroundColor Cyan
@@ -2056,7 +2048,7 @@ if ($Branch -eq 7) {
 
     # Return to main menu
     $Branch = 0
-    $Host.UI.RawUI.WindowTitle = "Rafiekunsimp Tool Suite | github.com/Rafie-kun"
+    $Host.UI.RawUI.WindowTitle = "Shadowclutch Tool Suite | github.com/Shadowclutch"
 
     # Show menu and get new selection
     while ($true) {
@@ -2100,7 +2092,7 @@ if ($Branch -eq 8) {
     # ==============================
     # CloudRedirect Installer
     # ==============================
-    $Host.UI.RawUI.WindowTitle = "CloudRedirect Installer | github.com/Rafie-kun"
+    $Host.UI.RawUI.WindowTitle = "CloudRedirect Installer | github.com/Shadowclutch"
 
     # ===================== LOGGING =====================
     function Log {
@@ -2251,7 +2243,7 @@ if ($Branch -eq 8) {
     exit
 
     # ---- Return to main menu after Branch 8 ----
-    $Host.UI.RawUI.WindowTitle = "Rafiekunsimp Tool Suite | github.com/Rafie-kun"
+    $Host.UI.RawUI.WindowTitle = "Shadowclutch Tool Suite | github.com/Shadowclutch"
     while ($true) {
         Write-MainMenu
         $sel = Read-Host "Select an option"
@@ -2283,7 +2275,7 @@ if ($Branch -eq 8) {
 
 
 
-#### Branch 9: Download / Launch CloudRedirect GUI (App by SelectivelyGood | Script by Rafiekunsimp) ####
+#### Branch 9: Download / Launch CloudRedirect GUI (App by SelectivelyGood | Script by Shadowclutch) ####
 if ($Branch -eq 9) {
     $Host.UI.RawUI.WindowTitle = "CloudRedirect GUI | github.com/Rafie-kun"
 
@@ -2424,7 +2416,7 @@ if ($Branch -eq 9) {
                 break
             }
             "Q" {
-                $Host.UI.RawUI.WindowTitle = "Rafiekunsimp Tool Suite | github.com/Rafie-kun"
+                $Host.UI.RawUI.WindowTitle = "Shadowclutch Tool Suite | github.com/Shadowclutch"
 
                 while ($true) {
                     Write-MainMenu
@@ -2461,7 +2453,7 @@ if ($Branch -eq 9) {
 
 #### Branch 10: Millennium & SteamTools Reinstaller (by clem.la & melly) ####
 if ($Branch -eq 10) {
-    $Host.UI.RawUI.WindowTitle = "Millennium & ST Reinstaller | github.com/Rafie-kun"
+    $Host.UI.RawUI.WindowTitle = "Millennium & ST Reinstaller | github.com/"Shadowclutch
 
     # ---- Branch 10: Inner functions ----
 
@@ -2519,7 +2511,7 @@ if ($Branch -eq 10) {
         Blank
         Read-Host "Press Enter to return to the menu"
         $Branch = 0
-        $Host.UI.RawUI.WindowTitle = "Rafiekunsimp Tool Suite | github.com/Rafie-kun"
+        $Host.UI.RawUI.WindowTitle = "Shadowclutch Tool Suite | github.com/Shadowclutch"
         while ($true) {
             Write-MainMenu
             $sel = Read-Host "Select an option"
@@ -2697,7 +2689,7 @@ if ($Branch -eq 10) {
             }
             "Q" {
                 $Branch = 0
-                $Host.UI.RawUI.WindowTitle = "Rafiekunsimp Tool Suite | github.com/Rafie-kun"
+                $Host.UI.RawUI.WindowTitle = "Shadowclutch Tool Suite | github.com/Shadowclutch"
                 while ($true) {
                     Write-MainMenu
                     $sel = Read-Host "Select an option"
@@ -2736,7 +2728,7 @@ if ($Branch -eq 10) {
 
 #### Branch 11: Steamless Game Patcher (GUI) ####
 if ($Branch -eq 11) {
-    $Host.UI.RawUI.WindowTitle = "Steamless Patcher | github.com/Rafie-kun"
+    $Host.UI.RawUI.WindowTitle = "Steamless Patcher | github.com/Shadowclutch"
 
     # =========================================================================
     # HELPERS
@@ -3598,8 +3590,8 @@ if ($Branch -eq 1 -or $Branch -eq 2) {
 
                 ErrorTitle            = "Installateur Rafiekunsimp - ERREUR"
                 ErrorHeader           = "UNE ERREUR EST SURVENUE"
-                ErrorBody             = "L'installation du plugin Rafiekunsimp a rencontré un problème et n'a pas pu se terminer. Ça se produit souvent quand votre fournisseur d'internet (ISP) bloque les serveurs de téléchargement."
-                ErrorFaq              = "Allez voir le serveur (github.com/Rafie-kun) pour plus d'informations & corrections."
+                ErrorBody             = "L'installation du plugin Shadowclutch a rencontré un problème et n'a pas pu se terminer. Ça se produit souvent quand votre fournisseur d'internet (ISP) bloque les serveurs de téléchargement."
+                ErrorFaq              = "Allez voir le serveur (github.com/Shadowclutch) pour plus d'informations & corrections."
                 ErrorExit             = "Appuyez sur une touche pour quitter."
             }
         }
@@ -3632,7 +3624,7 @@ if ($Branch -eq 1 -or $Branch -eq 2) {
         if (-not $L) { $L = Get-DefaultStrings -Culture "en" }
 
         $host.UI.RawUI.CursorPosition = @{ X=0; Y=0 }
-        $errTitle = if ($L.ContainsKey("ErrorTitle")) { $L["ErrorTitle"] } else { "Rafiekunsimp installer - ERROR" }
+        $errTitle = if ($L.ContainsKey("ErrorTitle")) { $L["ErrorTitle"] } else { "Shadowclutch installer - ERROR" }
         $host.UI.RawUI.WindowTitle = $errTitle
         Clear-Host
 
@@ -3655,7 +3647,7 @@ if ($Branch -eq 1 -or $Branch -eq 2) {
         Write-Host $errMsg -ForegroundColor Gray
         Write-Host ""
 
-        $faq = if ($L.ContainsKey("ErrorFaq")) { $L["ErrorFaq"] } else { "Visit (github.com/Rafie-kun)" }
+        $faq = if ($L.ContainsKey("ErrorFaq")) { $L["ErrorFaq"] } else { "Visit (github.com/Shadowclutch)" }
         Write-Host $faq -ForegroundColor Cyan
         Write-Host ""
 
