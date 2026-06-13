@@ -824,7 +824,8 @@ if (-not $Branch) {
     Blank
 }
 
-:MainLoop while ($true) {
+:MainLoop 
+while ($true) {
 
 
 #### Branch 6: Steam Bulk Fixer (by waike - waike.dev) ####
