@@ -9,9 +9,9 @@ param(
 )
 
 ## Configure this
-$Host.UI.RawUI.WindowTitle = "Shadowclutch Tool Suite | github.com/Shadowclutch"
+$Host.UI.RawUI.WindowTitle = "Rafiekunsimp Tool Suite | github.com/Rafie-kun"
 $name = "luatools"
-$link = "https://github.com/Shadowclutch/ltsteamplugin/releases/latest/download/ltsteamplugin.zip"
+$link = "https://github.com/Rafie-kun/ltsteamplugin/releases/latest/download/ltsteamplugin.zip"
 $milleniumTimer = 5 # in seconds for auto-installation
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -65,7 +65,7 @@ $Translations = @{
         "  INSTALL / UPDATE" = "  INSTALL / UPDATE"
         "  FIXES" = "  FIXES"
         "  OTHER" = "  OTHER"
-        "Install Shadowclutch plugin              " = "Install Shadowclutch plugin              "
+        "Install Rafiekunsimp plugin              " = "Install Rafiekunsimp plugin              "
         "Install steamtools-collection        " = "Install steamtools-collection        "
         "Spacetheme Block Remover             " = "Spacetheme Block Remover             "
         "Removes the 'get a job loser' block  " = "Removes the 'get a job loser' block  "
@@ -75,11 +75,11 @@ $Translations = @{
         "Steam Bulk Fixer" = "Steam Bulk Fixer"
         "Runs various Steam/Steamtools fixes  " = "Runs various Steam/Steamtools fixes  "
         "ST Uninstaller" = "ST Uninstaller"
-        "Full Steamtools/Shadowclutch uninstaller " = "Full Steamtools/Shadowclutch uninstaller "
-        "by Shadowclutch" = "by Shadowclutch"
+        "Full Steamtools/Rafiekunsimp uninstaller " = "Full Steamtools/Rafiekunsimp uninstaller "
+        "by Rafiekunsimp" = "by Rafiekunsimp"
         "Steam Manifest Downloader" = "Steam Manifest Downloader"
         "Downloads depot manifests when       " = "Downloads depot manifests when       "
-        "by Skyflare (Modified by Shadowclutch)" = "by Skyflare (Modified by Shadowclutch)"
+        "by Skyflare (Modified by Rafiekunsimp)" = "by Skyflare (Modified by Rafiekunsimp)"
         "SteamTools servers are unavailable   " = "SteamTools servers are unavailable   "
         "No Internet Connection Fix" = "No Internet Connection Fix"
         "Fixes Steam 'No Internet' errors via " = "Fixes Steam 'No Internet' errors via "
@@ -87,7 +87,7 @@ $Translations = @{
         "CloudRedirectCLI /stfixer            " = "CloudRedirectCLI /stfixer            "
         "Download / Launch CloudRedirect (GUI)" = "Download / Launch CloudRedirect (GUI)"
         "Downloads & launches CloudRedirect   " = "Downloads & launches CloudRedirect   "
-        "by Shadowclutch | App by SelectivelyGood" = "by Shadowclutch | App by SelectivelyGood"
+        "by Rafiekunsimp | App by SelectivelyGood" = "by Rafiekunsimp | App by SelectivelyGood"
         "GUI, or runs it if already installed " = "GUI, or runs it if already installed "
         "Millennium & SteamTools Reinstaller" = "Millennium & SteamTools Reinstaller"
         "Reinstalls Millennium + SteamTools,  " = "Reinstalls Millennium + SteamTools,  "
@@ -113,11 +113,11 @@ $Translations = @{
         "Will include language support on THIS script too, luv y'all brazilians" = "Will include language support on THIS script too, luv y'all brazilians"
     }
     ru = @{
-        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
+        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
         "  INSTALL / UPDATE" = "  УСТАНОВКА / ОБНОВЛЕНИЕ"
         "  FIXES" = "  ИСПРАВЛЕНИЯ"
         "  OTHER" = "  ДРУГОЕ"
-        "Install Shadowclutch plugin              " = "Установить плагин Shadowclutch           "
+        "Install Rafiekunsimp plugin              " = "Установить плагин Rafiekunsimp           "
         "Install steamtools-collection        " = "Установить steamtools-collection     "
         "Spacetheme Block Remover             " = "Удаление блока Spacetheme            "
         "Removes the 'get a job loser' block  " = "Удаляет блок 'get a job loser'       "
@@ -127,11 +127,11 @@ $Translations = @{
         "Steam Bulk Fixer" = "Массовый фиксер Steam"
         "Runs various Steam/Steamtools fixes  " = "Запускает различные исправления Steam/Steamtools"
         "ST Uninstaller" = "Деинсталлятор ST"
-        "Full Steamtools/Shadowclutch uninstaller " = "Полный деинсталлятор Steamtools/Shadowclutch "
+        "Full Steamtools/Rafiekunsimp uninstaller " = "Полный деинсталлятор Steamtools/Rafiekunsimp "
         "by Rafiekunsimp" = "от Rafiekunsimp"
         "Steam Manifest Downloader" = "Загрузчик манифестов Steam"
         "Downloads depot manifests when       " = "Загружает манифесты депо, когда      "
-        "by Skyflare (Modified by Shadowclutch)" = "от Skyflare (изменено Shadowclutch)"
+        "by Skyflare (Modified by Rafiekunsimp)" = "от Skyflare (изменено Rafiekunsimp)"
         "SteamTools servers are unavailable   " = "серверы SteamTools недоступны        "
         "No Internet Connection Fix" = "Исправление отсутствия интернета"
         "Fixes Steam 'No Internet' errors via " = "Исправляет ошибки 'No Internet' через "
@@ -139,7 +139,7 @@ $Translations = @{
         "CloudRedirectCLI /stfixer            " = "CloudRedirectCLI /stfixer            "
         "Download / Launch CloudRedirect (GUI)" = "Скачать / Запустить CloudRedirect (GUI)"
         "Downloads & launches CloudRedirect   " = "Скачивает и запускает CloudRedirect  "
-        "by Shadowclutch | App by SelectivelyGood" = "от Shadowclutch | Приложение SelectivelyGood"
+        "by Rafiekunsimp | App by SelectivelyGood" = "от Rafiekunsimp | Приложение SelectivelyGood"
         "GUI, or runs it if already installed " = "GUI, или запускает, если уже установлено "
         "Millennium & SteamTools Reinstaller" = "Переустановщик Millennium и SteamTools"
         "Reinstalls Millennium + SteamTools,  " = "Переустанавливает Millennium + SteamTools, "
@@ -165,11 +165,11 @@ $Translations = @{
         "Will include language support on THIS script too, luv y'all brazilians" = "В ЭТОМ скрипте тоже будет поддержка языков, люблю вас всех"
     }
     fr = @{
-        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
+        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
         "  INSTALL / UPDATE" = "  INSTALLATION / MISE À JOUR"
         "  FIXES" = "  CORRECTIFS"
         "  OTHER" = "  AUTRE"
-        "Install Shadowclutch plugin              " = "Installer le plugin Shadowclutch         "
+        "Install Rafiekunsimp plugin              " = "Installer le plugin Rafiekunsimp         "
         "Install steamtools-collection        " = "Installer steamtools-collection      "
         "Spacetheme Block Remover             " = "Suppresseur de bloc Spacetheme       "
         "Removes the 'get a job loser' block  " = "Supprime le bloc 'get a job loser'   "
@@ -179,11 +179,11 @@ $Translations = @{
         "Steam Bulk Fixer" = "Correctif global Steam"
         "Runs various Steam/Steamtools fixes  " = "Exécute divers correctifs Steam/Steamtools"
         "ST Uninstaller" = "Désinstalleur ST"
-        "Full Steamtools/Shadowclutch uninstaller " = "Désinstalleur complet Steamtools/Shadowclutch "
-        "by Shadowclutch" = "par Shadowclutch"
+        "Full Steamtools/Rafiekunsimp uninstaller " = "Désinstalleur complet Steamtools/Rafiekunsimp "
+        "by Rafiekunsimp" = "par Rafiekunsimp"
         "Steam Manifest Downloader" = "Téléchargeur de manifestes Steam"
         "Downloads depot manifests when       " = "Télécharge les manifestes de dépôt quand "
-        "by Skyflare (Modified by Shadowclutch)" = "par Skyflare (modifié par Shadowclutch)"
+        "by Skyflare (Modified by Rafiekunsimp)" = "par Skyflare (modifié par Rafiekunsimp)"
         "SteamTools servers are unavailable   " = "les serveurs SteamTools sont indisponibles "
         "No Internet Connection Fix" = "Correctif de connexion Internet"
         "Fixes Steam 'No Internet' errors via " = "Corrige les erreurs 'No Internet' de Steam via "
@@ -191,7 +191,7 @@ $Translations = @{
         "CloudRedirectCLI /stfixer            " = "CloudRedirectCLI /stfixer            "
         "Download / Launch CloudRedirect (GUI)" = "Télécharger / Lancer CloudRedirect (GUI)"
         "Downloads & launches CloudRedirect   " = "Télécharge et lance CloudRedirect    "
-        "by Shadowclutch | App by SelectivelyGood" = "par Shadowclutch | App par SelectivelyGood"
+        "by Rafiekunsimp | App by SelectivelyGood" = "par Rafiekunsimp | App par SelectivelyGood"
         "GUI, or runs it if already installed " = "GUI, ou l'exécute si déjà installé   "
         "Millennium & SteamTools Reinstaller" = "Réinstalleur Millennium et SteamTools"
         "Reinstalls Millennium + SteamTools,  " = "Réinstalle Millennium + SteamTools,  "
@@ -217,11 +217,11 @@ $Translations = @{
         "Will include language support on THIS script too, luv y'all brazilians" = "Le support des langues sera aussi inclus dans CE script, je vous adore tous"
     }
     es = @{ 
-        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
+        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
         "  INSTALL / UPDATE" = "  INSTALAR / ACTUALIZAR"
         "  FIXES" = "  ARREGLA"
         "  OTHER" = "  OTROS"
-        "Install Shadowclutch plugin" = "Instalar plugin de Shadowclutch"
+        "Install Rafiekunsimp plugin" = "Instalar plugin de Rafiekunsimp"
         "Install steamtools-collection" = "Instalar steamtools-collection"
         "Spacetheme Block Remover" = "Eliminador de bloqueo Spacetheme"
         "Steam Offline Fix" = "Arreglo de Steam sin conexión/carga infinita"
@@ -235,10 +235,10 @@ $Translations = @{
         "Removes the 'get a job loser' block by waike" = "Elimina el bloqueo 'get a job loser' por waike"
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam atascado en el icono de carga por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Ejecuta varios arreglos de Steam/Steamtools por waike"
-        "Full Steamtools/Shadowclutch uninstaller by Shadowclutch" = "Desinstalador completo de Steamtools/Shadowclutch por Shadowclutch"
-        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Shadowclutch)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Skyflare (Modificado por Shadowclutch)"
+        "Full Steamtools/Rafiekunsimp uninstaller by Rafiekunsimp" = "Desinstalador completo de Steamtools/Rafiekunsimp por Rafiekunsimp"
+        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Rafiekunsimp)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Skyflare (Modificado por Rafiekunsimp)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige errores de Steam 'Sin Internet' mediante Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
-        "Downloads & launches CloudRedirect by Shadowclutch | App by SelectivelyGood GUI, or runs it if already installed" = "Descarga e inicia CloudRedirect by Shadowclutch | App by SelectivelyGood GUI, o lo ejecuta si ya está instalado"
+        "Downloads & launches CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, or runs it if already installed" = "Descarga e inicia CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, o lo ejecuta si ya está instalado"
         "Reinstalls Millennium + SteamTools, by clem.la & melly fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige errores de hardlink al reinstalar"
         "Quit" = "Salir"
         "Select an option" = "Selecciona una opción"
@@ -296,11 +296,11 @@ $Translations = @{
         "Cleaning up temp file..." = "Limpiando archivo temporal..."
     }
     pt = @{ 
-        "Shadowclutch Tool Suite  |  github.com/Shadowclutch" = "  Shadowclutch Tool Suite  |  github.com/Shadowclutch"
+        "Rafiekunsimp Tool Suite  |  github.com/Rafie-kun" = "  Rafiekunsimp Tool Suite  |  github.com/Rafie-kun"
         "  INSTALL / UPDATE" = "  INSTALAR / ATUALIZAR"
         "  FIXES" = "  CORREÇÕES"
         "  OTHER" = "  OUTROS"
-        "Install Shadowclutch plugin" = "Instalar plugin Shadowclutch"
+        "Install Rafiekunsimp plugin" = "Instalar plugin Rafiekunsimp"
         "Install steamtools-collection" = "Instalar steamtools-collection"
         "Spacetheme Block Remover" = "Removedor de bloqueio Spacetheme"
         "Steam Offline Fix" = "Correção de Steam offline/carregamento infinito"
@@ -314,10 +314,10 @@ $Translations = @{
         "Removes the 'get a job loser' block by waike" = "Remove o bloqueio 'get a job loser' por waike"
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam preso no ícone de carregamento por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Executa várias correções de Steam/Steamtools por waike"
-        "Full Steamtools/Shadowclutch uninstaller by Shadowclutch" = "Desinstalador completo de Steamtools/Shadowclutch por Shadowclutch"
-        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Shadowclutch)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Skyflare (Modificado por Shadowclutch)"
+        "Full Steamtools/Rafiekunsimp uninstaller by Rafiekunsimp" = "Desinstalador completo de Steamtools/Rafiekunsimp por Rafiekunsimp"
+        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Rafiekunsimp)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Skyflare (Modificado por Rafiekunsimp)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige erros de Steam 'Sem Internet' via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
-        "Downloads & launches CloudRedirect by Shadowclutch | App by SelectivelyGood GUI, or runs it if already installed" = "Baixa e inicia CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, ou o executa se já estiver instalado"
+        "Downloads & launches CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, or runs it if already installed" = "Baixa e inicia CloudRedirect by Rafiekunsimp | App by SelectivelyGood GUI, ou o executa se já estiver instalado"
         "Reinstalls Millennium + SteamTools, by clem.la & melly fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige erros de hardlink na reinstalação"
         "Quit" = "Sair"
         "Select an option" = "Selecione uma opção"
@@ -667,10 +667,10 @@ function Write-MainMenu {
     Write-Host ""
     Write-Host "      " -NoNewline
     Write-Host "████████████████████" -ForegroundColor DarkGreen -NoNewline
-    Write-Host "    SHADOWCLUTCH TOOL SUITE" -ForegroundColor Green
+    Write-Host "    RAFIEKUNSIMP TOOL SUITE" -ForegroundColor Green
     Write-Host "      " -NoNewline
     Write-Host "████████████████████" -ForegroundColor DarkGreen -NoNewline
-    Write-Host "    github.com/Shadowclutch" -ForegroundColor DarkGray
+    Write-Host "    github.com/Rafie-kun" -ForegroundColor DarkGray
     Write-Host "      " -NoNewline
     Write-Host "████" -ForegroundColor DarkGreen -NoNewline
     Write-Host "████" -ForegroundColor Black -NoNewline
@@ -709,7 +709,7 @@ function Write-MainMenu {
 
     Write-Host "  " -NoNewline
     Write-Host " 1 " -NoNewline -ForegroundColor Black -BackgroundColor DarkGreen
-    Write-Host "  Install Shadowclutch Plugin  " -NoNewline -ForegroundColor White
+    Write-Host "  Install Rafiekunsimp Plugin  " -NoNewline -ForegroundColor White
     Write-Host (Get-PluginStatus "luatools") -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
@@ -759,7 +759,7 @@ function Write-MainMenu {
     Write-Host "  " -NoNewline
     Write-Host " 7 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
     Write-Host "  Steam Manifest Downloader    " -NoNewline -ForegroundColor White
-    Write-Host "by Skyflare (modded by Shadowclutch)" -ForegroundColor DarkGray
+    Write-Host "by Skyflare (modded by Rafiekunsimp)" -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
     Write-Host " 8 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
@@ -820,7 +820,425 @@ if (-not $Branch) {
             default { continue }
         }
         if ($Branch -ne 0) { break }
+    }
+    Blank
+}
 
+:MainLoop while ($true) {
+
+# Apply branch 2 name/link (works for both -Branch 2 and menu selection)
+if ($Branch -eq 2) {
+    $name = "steamtools-collection"
+    $link = "https://github.com/clemdotla/steamtools-collection/releases/download/Latest/steamtools-collection.zip"
+    $upperName = "Steamtools-collection"
+}
+
+
+#### Branch 3: Spacetheme Block Remover (by waike - waike.dev) ####
+if ($Branch -eq 3) {
+    Log "INFO" "Spacetheme Block Remover"
+    Log "AUX"  "Removes the 'get a job loser' text blocking your Steam client."
+    Log "AUX"  "Credit: waike (waike.dev)"
+    Blank
+
+    $steamPath = (Get-ItemProperty "HKCU:\Software\Valve\Steam" -ErrorAction SilentlyContinue).SteamPath
+    if (-not $steamPath -or -not (Test-Path $steamPath)) {
+        Log "ERR" "Steam not found."
+        Read-Host "Press Enter to exit"
+        exit 1
+    }
+
+    # Find all possible Spacetheme roots
+    $themeRoots = @()
+    $possibleRoots = @(
+        "$steamPath\steamui\skins\Steam",
+        "$steamPath\steamui\skins\spacetheme",
+        "$steamPath\millennium\themes",
+        "$steamPath\millennium\themes\Steam",
+        "C:\Program Files (x86)\Steam\millennium\themes",
+        "C:\Program Files (x86)\Steam\millennium\themes\Steam",
+        "C:\Program Files\Steam\millennium\themes",
+        "C:\Program Files\Steam\millennium\themes\Steam"
+    )
+    
+    foreach ($root in $possibleRoots) {
+        if (Test-Path $root) { $themeRoots += $root }
+    }
+
+    if ($themeRoots.Count -eq 0) {
+        Log "ERR" "Spacetheme was not found in any standard location."
+        Read-Host "Press Enter to exit"
+        exit 1
+    }
+
+    Log "WARN" "Closing all Steam processes..."
+    Get-Process -Name "steam" -ErrorAction SilentlyContinue | ForEach-Object { $_.CloseMainWindow() | Out-Null }
+    Start-Sleep -Seconds 1
+    Get-Process -Name "steam","steamwebhelper","steamerrorreporter" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    Start-Sleep -Seconds 1
+    Stop-Service "Steam Client Service" -ErrorAction SilentlyContinue
+    Start-Sleep -Seconds 1
+    Get-Process -Name "steam","steamwebhelper","steamservice","steamerrorreporter" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    Start-Sleep -Seconds 1
+
+    $pattern = '(?is)/\*\s*\r?\n?\s*&\s*Ban piracy plugins.*?color:\s*#fff\s*!important;\s*\}'
+    $patchedCount = 0
+
+    foreach ($root in $themeRoots) {
+        foreach ($cssFile in Get-ChildItem -Path $root -Recurse -Filter "*.css" -ErrorAction SilentlyContinue) {
+            $content = Get-Content $cssFile.FullName -Raw
+            if ($content -match $pattern) {
+                $content = $content -replace $pattern, '/* Patched piracy warning block */'
+                Set-Content -Path $cssFile.FullName -Value $content -NoNewline -Encoding UTF8
+                $patchedCount++
+                Log "OK" "Patched $($cssFile.Name)"
+            }
+        }
+    }
+
+    if ($patchedCount -gt 0) {
+        Log "OK" "Patched $patchedCount CSS file(s)"
+    } else {
+        Log "INFO" "Nothing to patch — block may already be removed."
+    }
+
+    Blank
+    Read-Host "Press Enter to exit"
+    exit
+}
+
+
+#### Branch 4: Steam Offline Fix (by waike - waike.dev) ####
+if ($Branch -eq 4) {
+    Log "INFO" "Steam Offline Fix"
+    Log "AUX"  "Steamtools sometimes forces offline mode — this attempts to fix the loading icon issue."
+    Log "AUX"  "Credit: waike (waike.dev)"
+    Blank
+
+    $steamPath = (Get-ItemProperty -Path 'HKLM:\SOFTWARE\WOW6432Node\Valve\Steam' -ErrorAction SilentlyContinue).InstallPath
+    if (-not $steamPath) { $steamPath = (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Valve\Steam' -ErrorAction SilentlyContinue).InstallPath }
+    if (-not $steamPath) {
+        Log "ERR" "Steam path not found."
+        Read-Host "Press Enter to exit"
+        exit 1
+    }
+
+    $loginUsersPath = Join-Path $steamPath 'config\loginusers.vdf'
+    if (Test-Path $loginUsersPath) {
+        $content = Get-Content -Path $loginUsersPath -Raw
+        if ($content -match '"WantsOfflineMode"\s+"1"') {
+            $newContent = $content -replace '("WantsOfflineMode"\s+)"1"', '$1"0"'
+            Set-Content -Path $loginUsersPath -Value $newContent -Encoding UTF8
+            Log "OK" "Fixed — WantsOfflineMode set to 0 in loginusers.vdf"
+        } else {
+            Log "INFO" "Steam was not set to offline mode, nothing changed."
+        }
+    } else {
+        Log "ERR" "loginusers.vdf not found at: $loginUsersPath"
+    }
+
+    Blank
+    Read-Host "Press Enter to exit"
+    exit
+}
+
+
+#### Branch 5: ST Uninstaller (by Rafiekunsimp) ####
+if ($Branch -eq 5) {
+    $Host.UI.RawUI.WindowTitle = "Rafiekunsimp Uninstaller | github.com/Rafie-kun"
+
+    function Get-SteamPath {
+        $entries = @(
+            @{ Path = "HKCU:\Software\Valve\Steam";             Key = "SteamPath"   },
+            @{ Path = "HKLM:\SOFTWARE\Valve\Steam";             Key = "InstallPath" },
+            @{ Path = "HKLM:\SOFTWARE\WOW6432Node\Valve\Steam"; Key = "InstallPath" }
+        )
+        foreach ($e in $entries) {
+            if (Test-Path $e.Path) {
+                $val = (Get-ItemProperty -Path $e.Path -Name $e.Key -ErrorAction SilentlyContinue).($e.Key)
+                if ($val -and (Test-Path $val)) { return $val }
+            }
+        }
+        return $null
+    }
+
+    $steam = Get-SteamPath
+    if (-not $steam) {
+        Log "ERR" "Steam not found. Is Steam installed?"
+        Blank; Read-Host "Press Enter to exit"
+        exit 1
+    }
+
+    function Test-PluginInstalled {
+        $dir = Join-Path $steam "plugins"
+        if (-not (Test-Path $dir)) { return $false }
+        foreach ($p in Get-ChildItem -Path $dir -Directory -ErrorAction SilentlyContinue) {
+            $jp = Join-Path $p.FullName "plugin.json"
+            if (Test-Path $jp) {
+                $j = try { Get-Content $jp -Raw | ConvertFrom-Json } catch { $null }
+                if ($j -and $j.name -eq $name) { return $true }
+            }
+        }
+        return $false
+    }
+
+    function Test-SteamtoolsInstalled {
+        $hasDll = (@("dwmapi.dll","xinput1_4.dll") | Where-Object { Test-Path (Join-Path $steam $_) }).Count -gt 0
+        return ($hasDll -or (Test-Path "C:\Program Files\SteamTools"))
+    }
+
+    function Test-MillenniumInstalled {
+        $millenniumMarkers = @(
+            "millennium.dll",
+            "python311.dll",
+            "python311.zip",
+            "version.dll",
+            "user32.dll",
+            "winmm.dll",
+            "millennium_bootstrap.dll",
+            "ext",
+            "millennium",
+            "pkg"
+        )
+        return ($millenniumMarkers | Where-Object { Test-Path (Join-Path $steam $_) }).Count -gt 0
+    }
+
+    function Get-LuaFileCount {
+        $p = Join-Path $steam "config\stplug-in"
+        if (-not (Test-Path $p)) { return 0 }
+        return @(Get-ChildItem -Path $p -Filter "*.lua" -ErrorAction SilentlyContinue).Count
+    }
+
+    function Uninstall-Plugin {
+        Blank; Sep; Log "INFO" "Uninstalling plugin: $name"; Sep; Blank
+
+        $dir = Join-Path $steam "plugins"
+        if (-not (Test-Path $dir)) { Log "WARN" "Plugins directory not found."; return }
+
+        $pluginPath = $null
+        foreach ($p in Get-ChildItem -Path $dir -Directory -ErrorAction SilentlyContinue) {
+            $jp = Join-Path $p.FullName "plugin.json"
+            if (Test-Path $jp) {
+                $j = try { Get-Content $jp -Raw | ConvertFrom-Json } catch { $null }
+                if ($j -and $j.name -eq $name) { $pluginPath = $p.FullName; break }
+            }
+        }
+
+        if ($pluginPath) {
+            Log "LOG" "Removing: $pluginPath"
+            Remove-Item $pluginPath -Recurse -Force
+            Log "OK" "$upperName folder removed"
+        } else {
+            Log "WARN" "Plugin folder for '$name' not found — already uninstalled?"
+        }
+
+        $configPath = Join-Path $steam "ext/config.json"
+        if (Test-Path $configPath) {
+            $config = try { (Get-Content $configPath -Raw -Encoding UTF8) | ConvertFrom-Json } catch { $null }
+            if ($config -and $config.plugins -and $config.plugins.enabledPlugins) {
+                $before = @($config.plugins.enabledPlugins)
+                $after  = $before | Where-Object { $_ -ne $name }
+                if ($before.Count -ne $after.Count) {
+                    $config.plugins.enabledPlugins = $after
+                    $config | ConvertTo-Json -Depth 10 | Set-Content $configPath -Encoding UTF8
+                    Log "OK" "Removed '$name' from enabled plugins list"
+                }
+            }
+        }
+
+        Log "OK" "$upperName uninstalled"
+    }
+
+    function Uninstall-Steamtools([bool]$RemoveLuas) {
+        Blank; Sep; Log "INFO" "Uninstalling SteamTools"; Sep; Blank
+
+        $stDlls          = @("dwmapi.dll","xinput1_4.dll")
+        $foundDlls       = $stDlls | Where-Object { Test-Path (Join-Path $steam $_) }
+        $stAppDir        = "C:\Program Files\SteamTools"
+        $stAppExists     = Test-Path $stAppDir
+        $stplugPath      = Join-Path $steam "config\stplug-in"
+        $luaFiles        = @()
+        if (Test-Path $stplugPath) { $luaFiles = @(Get-ChildItem -Path $stplugPath -Filter "*.lua" -ErrorAction SilentlyContinue) }
+        $stRegKey        = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SteamTools"
+        $stRegExists     = Test-Path $stRegKey
+        $startMenuDir    = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\SteamTools"
+        $startMenuExists = Test-Path $startMenuDir
+
+        if ($foundDlls.Count -eq 0 -and -not $stAppExists) { Log "INFO" "SteamTools does not appear to be installed."; return }
+
+        Log "WARN" "Killing Steam and SteamTools..."
+        Get-Process -Name "steam","SteamTools" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+        Start-Sleep -Seconds 2
+
+        foreach ($f in $foundDlls) {
+            $t = Join-Path $steam $f
+            try   { Remove-Item -Path $t -Force -ErrorAction Stop; Log "OK" "Removed: $f" }
+            catch { Log "ERR" "Could not remove $f — try running as Administrator" }
+        }
+
+        if ($RemoveLuas) {
+            foreach ($lua in $luaFiles) {
+                try   { Remove-Item -Path $lua.FullName -Force -ErrorAction Stop; Log "OK" "Removed: $($lua.Name)" }
+                catch { Log "ERR" "Could not remove $($lua.Name)" }
+            }
+        }
+
+        if ($stAppExists) {
+            try   { Remove-Item -Path $stAppDir -Recurse -Force -ErrorAction Stop; Log "OK" "Removed: $stAppDir" }
+            catch { Log "ERR" "Could not remove $stAppDir — try running as Administrator" }
+        }
+
+        if ($stRegExists) {
+            try   { Remove-Item -Path $stRegKey -Recurse -Force -ErrorAction Stop; Log "OK" "Registry entry removed" }
+            catch { Log "ERR" "Could not remove registry entry" }
+        }
+
+        if ($startMenuExists) {
+            try   { Remove-Item -Path $startMenuDir -Recurse -Force -ErrorAction Stop; Log "OK" "Start Menu folder removed" }
+            catch { Log "ERR" "Could not remove Start Menu folder" }
+        }
+
+        Log "OK" "SteamTools uninstalled"
+    }
+
+    function Uninstall-Millennium([bool]$KeepPlugins) {
+        Blank; Sep; Log "INFO" "Uninstalling Millennium"; Sep; Blank
+
+        $milFiles   = @(
+            "millennium.dll",
+            "python311.dll",
+            "python311.zip",
+            "version.dll",
+            "user32.dll",
+            "winmm.dll",
+            "millennium_bootstrap.dll"
+        )
+        $milDirs    = @("ext","plugins","millennium","pkg")
+        $foundFiles = $milFiles | Where-Object { Test-Path (Join-Path $steam $_) }
+        $foundDirs  = $milDirs  | Where-Object { Test-Path (Join-Path $steam $_) }
+
+        if ($foundFiles.Count -eq 0 -and $foundDirs.Count -eq 0) { Log "INFO" "Millennium does not appear to be installed."; return }
+
+        Log "WARN" "Killing Steam..."
+        Get-Process -Name "steam" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+        Start-Sleep -Seconds 2
+
+        foreach ($f in $foundFiles) {
+            $t = Join-Path $steam $f
+            try   { Remove-Item -Path $t -Force -ErrorAction Stop; Log "OK" "Removed: $f" }
+            catch { Log "ERR" "Could not remove $f — try running as Administrator" }
+        }
+
+        foreach ($d in $foundDirs) {
+            if ($d -eq "plugins" -and $KeepPlugins) { Log "AUX" "Skipping plugins folder"; continue }
+            $t = Join-Path $steam $d
+            try   { Remove-Item -Path $t -Recurse -Force -ErrorAction Stop; Log "OK" "Removed: $d\" }
+            catch { Log "ERR" "Could not remove $d\ — try running as Administrator" }
+        }
+
+        Log "OK" "Millennium uninstalled"
+    }
+
+    function Restart-SteamApp {
+        $exe = Join-Path $steam "steam.exe"
+        if (Test-Path $exe) { Start-Process -FilePath $exe; Log "OK" "Steam started" }
+        else                { Log "ERR" "steam.exe not found" }
+    }
+
+    $luaCount      = Get-LuaFileCount
+    $doPlugin      = Test-PluginInstalled
+    $doSteamtools  = Test-SteamtoolsInstalled
+    $doMillennium  = Test-MillenniumInstalled
+    $doLuas        = $false
+    $doKeepPlugins = $false
+
+    function Write-UninstallMenu {
+        Clear-Host
+        Write-Host ("  " + ([char]0x2588).ToString() * 61) -ForegroundColor DarkGreen
+        Write-Host ("  " + ([char]0x2593).ToString() * 61) -ForegroundColor Green
+        Write-Host ""
+        Write-Host "  [" -NoNewline -ForegroundColor DarkGreen
+        Write-Host " ST UNINSTALLER " -NoNewline -ForegroundColor Red
+        Write-Host "]  " -NoNewline -ForegroundColor DarkGreen
+        Write-Host "by Rafiekunsimp  |  github.com/Rafie-kun" -ForegroundColor DarkGray
+        Write-Host ""
+        Write-Host ("  " + ([char]0x2593).ToString() * 61) -ForegroundColor Green
+        Blank
+
+        function Checkbox([bool]$on) { if ($on) { "[X]" } else { "[ ]" } }
+        function InstallStatus([bool]$found) { if ($found) { "[installed]" } else { "[not found]" } }
+
+        Write-Host "  WHAT TO UNINSTALL" -ForegroundColor DarkGray
+        Write-Host "  1   " -ForegroundColor Cyan -NoNewline
+        Write-Host "$(Checkbox $doPlugin) Plugin ($name)        " -NoNewline
+        Write-Host (InstallStatus (Test-PluginInstalled)) -ForegroundColor DarkGray
+
+        Write-Host "  2   " -ForegroundColor Cyan -NoNewline
+        Write-Host "$(Checkbox $doSteamtools) SteamTools            " -NoNewline
+        Write-Host (InstallStatus (Test-SteamtoolsInstalled)) -ForegroundColor DarkGray
+
+        Write-Host "  3   " -ForegroundColor Cyan -NoNewline
+        Write-Host "$(Checkbox $doMillennium) Millennium            " -NoNewline
+        Write-Host (InstallStatus (Test-MillenniumInstalled)) -ForegroundColor DarkGray
+
+        Blank
+        Write-Host "  OPTIONS" -ForegroundColor DarkGray
+
+        $luaLabel = if ($luaCount -gt 0) { "($luaCount file(s) found)" } else { "(none found)" }
+        Write-Host "  4   " -ForegroundColor Cyan -NoNewline
+        Write-Host "$(Checkbox $doLuas) Remove SteamTools Lua files   " -NoNewline
+        Write-Host $luaLabel -ForegroundColor DarkGray
+
+        Write-Host "  5   " -ForegroundColor Cyan -NoNewline
+        Write-Host "$(Checkbox $doKeepPlugins) Keep Millennium plugins folder"
+
+        Blank
+        Write-Host "  R   " -ForegroundColor Green -NoNewline; Write-Host "Run"
+        Write-Host "  Q   " -ForegroundColor DarkGray -NoNewline; Write-Host "Quit"
+        Blank
+    }
+
+    while ($true) {
+        Write-UninstallMenu
+        $key = Read-Host "Toggle option or run"
+
+        switch ($key.Trim().ToUpper()) {
+            "1" { $doPlugin      = -not $doPlugin }
+            "2" { $doSteamtools  = -not $doSteamtools }
+            "3" { $doMillennium  = -not $doMillennium }
+            "4" { $doLuas        = -not $doLuas }
+            "5" { $doKeepPlugins = -not $doKeepPlugins }
+            "Q" { exit 0 }
+            "R" {
+                if (-not $doPlugin -and -not $doSteamtools -and -not $doMillennium) {
+                    Clear-Host
+                    Log "WARN" "Nothing selected to uninstall."
+                    Blank
+                    Read-Host "Press Enter to go back"
+                    break
+                }
+
+                Clear-Host; Sep
+                Write-Host "  Running uninstaller..." -ForegroundColor Cyan
+                Sep
+
+                if ($doPlugin)     { Uninstall-Plugin }
+                if ($doSteamtools) { Uninstall-Steamtools -RemoveLuas $doLuas }
+                if ($doMillennium) { Uninstall-Millennium -KeepPlugins $doKeepPlugins }
+
+                Blank
+                $restart = Read-Host "Restart Steam? (y/n)"
+                if ($restart.Trim() -ieq "y") { Restart-SteamApp }
+
+                Blank; Sep
+                Write-Host "  Done!" -ForegroundColor Green
+                Sep; Blank
+                Read-Host "Press Enter to exit"
+                exit 0
+            }
+        }
+    }
+}
 
 #### Branch 6: Steam Bulk Fixer (by waike - waike.dev) ####
 if ($Branch -eq 6) {
