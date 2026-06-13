@@ -2453,7 +2453,7 @@ if ($Branch -eq 9) {
 
 #### Branch 10: Millennium & SteamTools Reinstaller (by clem.la & melly) ####
 if ($Branch -eq 10) {
-    $Host.UI.RawUI.WindowTitle = "Millennium & ST Reinstaller | github.com/"Shadowclutch
+    $Host.UI.RawUI.WindowTitle = "Millennium & ST Reinstaller | github.com/Shadowclutch"
 
     # ---- Branch 10: Inner functions ----
 
